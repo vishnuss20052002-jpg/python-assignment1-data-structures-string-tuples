@@ -1,0 +1,57 @@
+Python 3.13.16 (tags/v3.13.16:cbc944f, Sep 30 2026, 19:17:50) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+name=input("enter your name: ")
+enter your name: vishnu
+string1="hello"+ name
+print(string1)
+hellovishnu
+string2=string1+",welcome to python programming"
+print(string2)
+hellovishnu,welcome to python programming
+print(string2[0])
+h
+>>> print(string2[-1])
+g
+>>> print(string2[0:5])
+hello
+>>> print(string2[-11])
+p
+>>> print(string2[-11:])
+programming
+>>> print(string[::-1])
+Traceback (most recent call last):
+  File "<pyshell#10>", line 1, in <module>
+    print(string[::-1])
+NameError: name 'string' is not defined. Did you mean: 'string1'? Or did you forget to import 'string'?
+>>> print(string2[::-1])
+gnimmargorp nohtyp ot emoclew,unhsivolleh
+>>> print(string2[23:29])
+python
+>>> strM="python biggner tutorial"
+>>> print(strM.upper())
+PYTHON BIGGNER TUTORIAL
+>>> print(strM.lower())
+python biggner tutorial
+>>> print(strM.capitalize())
+Python biggner tutorial
+>>> print(strM.count('t'))
+3
+>>> print(strM.replace("python","machine learning"))
+machine learning biggner tutorial
+>>> t1=(10,20,30)
+>>> t2=(40,50,60)
+>>> t_combine=t1+t2
+>>> print(t_combine)
+(10, 20, 30, 40, 50, 60)
+>>> print(t_combime*)
+SyntaxError: invalid syntax
+>>> print(t_combine*3)
+(10, 20, 30, 40, 50, 60, 10, 20, 30, 40, 50, 60, 10, 20, 30, 40, 50, 60)
+>>> print(t_combine[0:3])
+(10, 20, 30)
+>>> print(t_combine[2])
+30
+>>> print(t_combine[0:3])
+(10, 20, 30)
+>>> print(t_combine[-3:])
+(40, 50, 60)
